@@ -38,12 +38,13 @@ header {
 .header__right {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 90%;
   height: auto;
   margin: 0 auto;
 }
 .header__right img {
-  width: 260px;
+  width: 250px;
   margin-top: 22px;
 }
 main {
