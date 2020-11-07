@@ -1,0 +1,43 @@
+body {
+  background-image: url("../images/bg-desktop.svg");
+  /* background-position: unset; */
+}
+header {
+  height: 150px;
+  margin: 0 120px;
+}
+.header__left img {
+  width: 220px;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.main__section {
+  width: 470px;
+  margin: 0;
+  margin-top: 100px;
+  text-align: left;
+  padding-left: 30px;
+}
+.main__image--container img {
+  width: auto;
+  margin-top: 45px;
+}
+.main__section h2 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  width: 65%;
+  margin: 0;
+}
+.main__section p {
+  padding-right: 20px;
+}
+.main__section button {
+  font-weight: bold;
+  height: 40px;
+}
+footer {
+  justify-content: flex-end;
+}
